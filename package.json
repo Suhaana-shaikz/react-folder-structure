@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
      "homepage":"https://shaiksuhana.github.io/react-folder-structure",
+    "deploy": "vite build && gh-pages -d dist"
+}
+
   },
   "dependencies": {
     "react": "^18.3.1",
